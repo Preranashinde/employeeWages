@@ -12,14 +12,14 @@ totalWorkHours=0;
 totalWorkingDays=0;
 
 function getWorkingHours() {
-			case $1 in
-				$isFullTime)
-					workHours=8 ;;
-            $isPartTime)
-               workHours=4 ;;
-            *)
-               workHours=0 ;;
-			esac
+	case $1 in
+		$isFullTime)
+			workHours=8 ;;
+            	$isPartTime)
+               		workHours=4 ;;
+            	*)
+               		workHours=0 ;;
+	esac
 			echo $workHours
 		}
 
