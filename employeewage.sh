@@ -21,7 +21,7 @@ function getWorkingHours() {
                		workHours=0 ;;
 	esac
 		echo $workHours
-		}
+	}
 
 function calcDailyWage() {
 	local workHrs=$1
