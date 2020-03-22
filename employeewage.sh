@@ -19,10 +19,10 @@ do
 			case $empCheck in
 				$isFullTime)
 					empHrs=8 ;;
-            $isPartTime)
-               empHrs=4 ;;
-            *)
-               empHrs=0 ;;
+            			$isPartTime)
+               				empHrs=4 ;;
+          			*)
+               				empHrs=0 ;;
 			esac
 		totalEmpHrs=$(($totalEmpHrs+$empHrs))
 done
